@@ -36,6 +36,25 @@ Cargas Incrementais: watermark por coluna de data/offset + merge/upsert idempote
 
 Pipelines Dinâmicos: parametrização de fonte/destino/esquema e schema drift via mapping dinâmico.
 
+
+.
+├─ adf/
+│  ├─ linkedServices/
+│  ├─ datasets/
+│  ├─ pipelines/
+│  └─ globalParameters.json
+├─ databricks/
+│  ├─ bronze/
+│  ├─ silver/
+│  └─ gold/
+├─ sql/
+│  ├─ ddl/
+│  └─ views/
+├─ docs/
+│  └─ arquitetura.png   <-- coloque a imagem aqui
+└─ README.md
+
+
 APIs: extração via ADF HTTP + desserialização/normalização.
 
 On-Prem → Cloud: self-hosted integration runtime (quando necessário).
