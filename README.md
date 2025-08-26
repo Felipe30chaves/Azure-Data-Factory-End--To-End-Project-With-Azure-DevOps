@@ -36,24 +36,8 @@ Cargas Incrementais: watermark por coluna de data/offset + merge/upsert idempote
 
 Pipelines Dinâmicos: parametrização de fonte/destino/esquema e schema drift via mapping dinâmico.
 
-
-.
-├─ adf/
-│  ├─ linkedServices/
-│  ├─ datasets/
-│  ├─ pipelines/
-│  └─ globalParameters.json
-├─ databricks/
-│  ├─ bronze/
-│  ├─ silver/
-│  └─ gold/
-├─ sql/
-│  ├─ ddl/
-│  └─ views/
-├─ docs/
-│  └─ arquitetura.png   <-- coloque a imagem aqui
-└─ README.md
-
+# Solution Architecture Overview
+![Solution](https://github.com/Felipe30chaves/Azure-Data-Factory-End--To-End-Project-With-Azure-DevOps/blob/main/Files/Data%20Factory%20End%20-To-End%20Project%20With%20Azure%20DevOps.drawio.png)
 
 APIs: extração via ADF HTTP + desserialização/normalização.
 
